@@ -13,8 +13,8 @@ url: https://ahjohns.github.io
 permalink: /:year/:month/:title/
 owner:
     name: Alex Johnson # 
-    twitter: @atothejo#
-    github: ahjohns.github.com#
+    twitter: @atothejo #
+    github: ahjohns.github.com #
     disqus_shortname: #
 
 ga_id: #
