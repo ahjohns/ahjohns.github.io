@@ -1,6 +1,11 @@
-<div class="footer" align="center">
-
-  Copyright &copy; <a href=http://diezcami.github.io target="_blank">Camille Diez</a> 2015<BR />
-  Powered by <a href=http://jekyllrb.com target="_blank">Jekyll</a>
-
-</div>
+        <!-- Other JavaScripts -->
+        <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.url }}"></script>        
+        <script src="{{ "/assets/js/jquery.timeago.js" | prepend: site.url }}"></script>
+        <script>
+          {% include scripts/google-analytics.html %}
+          {% include scripts/page-effects.html %}
+          {% include scripts/sidebar.html %}
+          {% include scripts/timeago.html %}
+        </script>
+    </body>
+</html>

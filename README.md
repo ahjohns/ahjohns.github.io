@@ -1,18 +1,45 @@
-# Arctic Fox
-An open source minimal theme for Jekyll, ideal for blogging.
+![favicon](https://raw.github.com/nadjetey/wangana/master/favicon.png) Wangana - Jekyll Theme
+==============
 
-View the demo at http://diezcami.github.io/arctic-fox-theme
+Wangana is responsive [Jekyll](http://jekyllrb.com/) theme, perfect for powering your GitHub hosted blog. Created with love by [nadjetey](https://twitter.com/_nadjetey). 
 
-## Contribute
-Please submit **open issues** for bugs or TBA features that haven't been documented yet! Feel free to submit pull requests for any existing issues.
+* Live demo [here](http://nadjetey.github.io/wangana/)
+* See wangana [elsewhere](http://nadjetey.github.io)
 
-## License
-The MIT License (MIT)
+## Screenshot
+![screenshot](https://raw.github.com/nadjetey/wangana/master/assets/images/wangana.png)
 
-Copyright (c) 2015 Camille Diez
+## Contributing
+1. Fork the theme ( https://github.com/nadjetey/wangana/fork ) The `master` branch is for development and pull requests. The `gh-pages` branch is for the demo page; don't bother.
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+## Issues
+[Open](https://github.com/nadjetey/wangana/issues/new) issues if you run into trouble or have suggestions. Pull Requests always welcome.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+## Installation & Usage
+1 > [Download](https://github.com/nadjetey/wangana/archive/master.zip) package
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+2 > Fill in the details of the configuration file (/_config.yml) by uncommenting the differents and edit to taste
+Edit: _config.yml (general options), main.css (theme colors & fonts)
+``` bat
+wangana/
+├── _config.yml
+├── _assets/
+    ├── _scss/
+        ├── main.scss
+```
+
+3 > Run locally with the following commands while in the root directory and view in a browser at localhost:4000
+``` bat
+$ jekyll build
+# Compile and build site files
+
+$ jekyll serve --watch
+# Serve site locally
+```
+
+## Copyright & License
+The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)
