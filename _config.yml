@@ -1,5 +1,5 @@
-name: Wangana
-description:  Jekyll theme
+name: Alex Johnson
+description:  MSI, Digital Initiatives + Library Technology Professional Seeking Full-Time Employment
 
 sass:
   sass_dir: assets/css/_sass
@@ -13,9 +13,11 @@ url: https://ahjohns.github.io
 permalink: /:year/:month/:title/
 owner:
     name: Alex Johnson # 
-    twitter: @atothejo #
-    github: ahjohns.github.com #
+    twitter: atothejo 
+    github: ahjohns 
     disqus_shortname: #
+    email: ahjohns@umich.edu
+    facebook: atothejo
 
 ga_id: #
 ga_username: #
