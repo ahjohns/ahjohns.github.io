@@ -24,7 +24,7 @@ navigation:
 - text: About
   url: /about/
 - text: Resume
-  url: /resume/
+  url: /resume/AlexandraJohnson'sResume3.pdf
 - text: Blog
   url: /blog/
 - text: Tags
@@ -41,15 +41,15 @@ owner:
     disqus_shortname: #
     email: ahjohns@umich.edu
     facebook: atothejo
->>>>>>> origin/master
 
 
-<<<<<<< HEAD
+
+
 # Author Details
-author:         'Abdel Raoof Olakara'
+author:         'Alex Johnson'
 
 #Social Media links
-linkedin:       'https://ae.linkedin.com/in/olakara/'
+linkedin:       'https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button'
 twitter:        'https://twitter.com/atoejo'
 facebook:       'https://www.facebook.com/atothejo'
 gplus:          'https://plus.google.com/u/0/117169558039298133147/posts'
@@ -63,12 +63,12 @@ footersvg: 'true'
 
 footer-links:
   dribbble:
-  email: ahjohns@umich.edu
+  email: 'ahjohns@umich.edu'
   facebook:
   flickr:
-  github: ahjohns.github.com
+  github: 'ahjohns.github.com'
   instagram:
-  linkedin:
+  linkedin: 'https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button'
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   google: None
