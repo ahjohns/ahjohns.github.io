@@ -4,6 +4,7 @@ title: Home
 description: Home Page for Jekyll Metro Theme
 ---
 
+<<<<<<< HEAD
 <div class="container">
 
 	<header class="row">
@@ -133,3 +134,27 @@ description: Home Page for Jekyll Metro Theme
 		</div>
 	</nav>
 </div>
+=======
+<p>I’m an intuitive, technology curious, and motivated, recent graduate student from the University of Michigan School of Information where I specialized in Archives and Records Management, with a targeted curriculum focusing on access, technology, and digital initiatives.
+
+I am interested in the preservation of collective memory and history in special collections, institutional archives and libraries through the use of digital initiatives and digital scholarship. I believe that access to collections can be achieved best through the innovative use of technology, and my experience at UMSI and in my internships have given me proficiencies in technological solutions for both:
+
+1) Programming: HTML/CSS, Python, PHP, SQL, XML, and R
+
+2) Content: EAD, MARC, Drupal, WordPress, ArchivesSpace, Archivist Toolkit
+
+</p>
+<script>
+$(document).ready(function() {
+    $(".page").children().first().find(".page-item-body").css( "display", "block" );
+    $(".page").children().first().find(".pib-indicator")
+        .find("i").toggleClass("fa-compress").toggleClass("fa-expand");
+
+    $(".page-item .pib-indicator").click(function() {
+        var preview = $(this);
+        preview.find("i").toggleClass("fa-expand").toggleClass("fa-compress");
+        $(this).closest(".page-item").find(".page-item-body").toggle("slow", function() {});
+    });
+});
+</script>
+>>>>>>> origin/master

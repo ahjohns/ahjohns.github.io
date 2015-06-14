@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 # Configurations
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 highlighter: pygments
+=======
+name: Alex Johnson
+description:  MSI, Digital Initiatives + Library Technology Professional Seeking Full-Time Employment
+>>>>>>> origin/master
 
 # Permalinks
 permalink:        /blog/:year/:month/:day/:title
@@ -13,6 +18,7 @@ description:      'digital initiatives + access + web + code == career wrangling
 url:              'ahjohns.github.io'
 baseurl:          ''
 
+<<<<<<< HEAD
 # Navigation
 navigation:
 - text: About
@@ -25,8 +31,20 @@ navigation:
   url: /tags/
 - text: Archive
   url : /archive/
+=======
+url: https://ahjohns.github.io
+permalink: /:year/:month/:title/
+owner:
+    name: Alex Johnson # 
+    twitter: atothejo 
+    github: ahjohns 
+    disqus_shortname: #
+    email: ahjohns@umich.edu
+    facebook: atothejo
+>>>>>>> origin/master
 
 
+<<<<<<< HEAD
 # Author Details
 author:         'Abdel Raoof Olakara'
 
@@ -67,3 +85,6 @@ destination: ./_site
 
 # Custom vars
 version:          0.8
+=======
+timezone: Detroit
+>>>>>>> origin/master
