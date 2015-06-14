@@ -1,23 +1,69 @@
-name: Wangana
-description:  Jekyll theme
+# Configurations
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+highlighter: pygments
 
-sass:
-  sass_dir: assets/css/_sass
-  style: :compressed
+# Permalinks
+permalink:        /blog/:year/:month/:day/:title
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+# Setup
+title:            'Alex Johnson'
+tagline:          'MSI, Digital Initiatives/Library Technology Professional Seeking Full-Time Employment'
+description:      'digital initiatives + access + web + code == career wrangling'
+url:              'ahjohns.github.io'
+baseurl:          ''
 
-url: http://nadjetey.github.io/wangana
-permalink: /:year/:month/:title/
-owner:
-    name: #
-    twitter: #
-    github: #
-    disqus_shortname: #
+# Navigation
+navigation:
+- text: About
+  url: /about/
+- text: Resume
+  url: /resume/
+- text: Blog
+  url: /blog/
+- text: Tags
+  url: /tags/
+- text: Archive
+  url : /archive/
 
-ga_id: #
-ga_username: #
 
-timezone: Africa/Accra
+# Author Details
+author:         'Abdel Raoof Olakara'
+
+#Social Media links
+linkedin:       'https://ae.linkedin.com/in/olakara/'
+twitter:        'https://twitter.com/atoejo'
+facebook:       'https://www.facebook.com/atothejo'
+gplus:          'https://plus.google.com/u/0/117169558039298133147/posts'
+
+# Google Analytics
+gahandler: 'UA-64089707-1'
+
+#if footer-links-visible is 'true' the svg-icons will be shown top on the copy right.
+#else the svg icons will not exist
+footersvg: 'true'
+
+footer-links:
+  dribbble:
+  email: ahjohns@umich.edu
+  facebook:
+  flickr:
+  github: ahjohns.github.com
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  google: None
+  twitter: atotejo
+  stackoverflow: #users/4388898/peter-zhu # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+
+# Disqus
+disqushandler: 'testingblogo'
+
+# Blog Configurations
+paginate: 10 # Posts per page on the blog index
+paginate_path: '/blog/page:num'
+destination: ./_site
+
+# Custom vars
+version:          0.8

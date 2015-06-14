@@ -1,11 +1,15 @@
-        <!-- Other JavaScripts -->
-        <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.url }}"></script>        
-        <script src="{{ "/assets/js/jquery.timeago.js" | prepend: site.url }}"></script>
-        <script>
-          {% include scripts/google-analytics.html %}
-          {% include scripts/page-effects.html %}
-          {% include scripts/sidebar.html %}
-          {% include scripts/timeago.html %}
-        </script>
-    </body>
-</html>
+<footer class="row">
+      <div class="col-ms-12 text-center">
+            <hr/>
+            {% if site.footersvg == 'true' %}
+                  <div>{% include svg-icons.html %}</div>
+            {% endif %}
+            &copy; {{ site.time | date: '%Y' }} - {{site.author}}. All rights reserved<br/>
+            Built using 
+            {% if page.theme And page.theme != "" And page.theme != nil %}
+            <a class="{{page.theme}}-link" href="http://jekyllrb.com/">Jekyll</a>
+            {% else %}
+            <a href="http://jekyllrb.com/">Jekyll</a>
+            {% endif %}
+      </div>
+</footer>

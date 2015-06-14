@@ -1,45 +1,54 @@
-![favicon](https://raw.github.com/nadjetey/wangana/master/favicon.png) Wangana - Jekyll Theme
-==============
+# Jekyll Metro
 
-Wangana is responsive [Jekyll](http://jekyllrb.com/) theme, perfect for powering your GitHub hosted blog. Created with love by [nadjetey](https://twitter.com/_nadjetey). 
+Jekyll Metro is a metro inspired theme for [Jekyll](http://jekyllrb.com).
 
-* Live demo [here](http://nadjetey.github.io/wangana/)
-* See wangana [elsewhere](http://nadjetey.github.io)
+## Summary
 
-## Screenshot
-![screenshot](https://raw.github.com/nadjetey/wangana/master/assets/images/wangana.png)
+Jekyll Metro is a theme built on top of bootstrap and other freely available libraries. Its aimed to provide a fully furnished Jekyll theme for personal sites with blog. 
 
-## Contributing
-1. Fork the theme ( https://github.com/nadjetey/wangana/fork ) The `master` branch is for development and pull requests. The `gh-pages` branch is for the demo page; don't bother.
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+## Version 1.0 Development (Beta 2 Released!)
 
-## Issues
-[Open](https://github.com/nadjetey/wangana/issues/new) issues if you run into trouble or have suggestions. Pull Requests always welcome.
+Head to [development branch](https://github.com/olakara/JekyllMetro/tree/development1.0) for bleeding edge. This is current development branch. 
+New features include:
+- Light box feature
+- Social media share widget
+- New colors
 
-## Installation & Usage
-1 > [Download](https://github.com/nadjetey/wangana/archive/master.zip) package
+This release will include lots of code clean up and optimizations in CSS, JS and HTML.
 
-2 > Fill in the details of the configuration file (/_config.yml) by uncommenting the differents and edit to taste
-Edit: _config.yml (general options), main.css (theme colors & fonts)
-``` bat
-wangana/
-├── _config.yml
-├── _assets/
-    ├── _scss/
-        ├── main.scss
-```
+## Features
 
-3 > Run locally with the following commands while in the root directory and view in a browser at localhost:4000
-``` bat
-$ jekyll build
-# Compile and build site files
+- Responsive Jekyll theme
+- Metro style Homepage
+  - Configurable tiles with different size
+  - Configurable colors for tiles
+  - Display of Latest and Recent articles as tiles
+- Pages for About Me, Resume with configurable color themes
+- Blog home page with listing of articles in pagination
+- Blog article page with configurable color themes
+- Easy integration with Google Analytics
+- Easy integration with Disqus for comments
 
-$ jekyll serve --watch
-# Serve site locally
-```
+## Demo
 
-## Copyright & License
-The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)
+You can see the live demo of this theme at [http://blog-olakara.rhcloud.com](http://blog-olakara.rhcloud.com)
+
+## Author
+
+**[Abdel Raoof Olakara](http://abdelraoof.com)**
+
+
+## Contributors
+
+**Stilyan Kongalov**
+- <https://github.com/Stilyan-Kangalov>
+
+**Peter Zhu**
+- <https://github.com/ZhuFengdaaa>
+
+
+## License
+
+Open sourced under the [MIT license](LICENSE.md).
+
+<3
