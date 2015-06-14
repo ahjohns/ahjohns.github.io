@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-<div class="col-sm-12">
-    <div class="page">
-        <p>’m an intuitive, technology curious, and motivated, recent graduate student from the University of Michigan School of Information where I specialized in Archives and Records Management, with a targeted curriculum focusing on access, technology, and digital initiatives.
+
+<p>I’m an intuitive, technology curious, and motivated, recent graduate student from the University of Michigan School of Information where I specialized in Archives and Records Management, with a targeted curriculum focusing on access, technology, and digital initiatives.
 
 I am interested in the preservation of collective memory and history in special collections, institutional archives and libraries through the use of digital initiatives and digital scholarship. I believe that access to collections can be achieved best through the innovative use of technology, and my experience at UMSI and in my internships have given me proficiencies in technological solutions for both:
 
@@ -12,32 +11,6 @@ I am interested in the preservation of collective memory and history in special 
 2) Content: EAD, MARC, Drupal, WordPress, ArchivesSpace, Archivist Toolkit
 
 </p>
-        {% for post in site.posts %}
-            {% if post.archive == false %}
-            <div class="page-item">
-                <div class="col-sm-8">
-                    <ul class="page-item-title">
-                        <li><time class="timeago meta" datetime="{{ post.date |  date: "%A %-d %B %Y" }}">{{ post.date }}</time>
-                        <a class="meta pull-right comments-meta" href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
-                        <li><a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 hide-on-phone">
-                    <ul class="page-item-title pull-right meta">
-                        <li><a href="{{ post.url | prepend: site.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a></li>
-                        <li><a href="{{ post.url | prepend: site.url }}">more <i class="fa fa-ellipsis-h"></i></a></li>
-                        <li><a class="pib-indicator">gist <i class="fa fa-expand"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-12 page-item-body">
-                    {{post.excerpt}}
-                </div>
-            </div>
-            {% endif %}
-        {% endfor %}
-    </div>
-</div>
 <script>
 $(document).ready(function() {
     $(".page").children().first().find(".page-item-body").css( "display", "block" );
