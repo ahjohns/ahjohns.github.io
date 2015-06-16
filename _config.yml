@@ -1,7 +1,7 @@
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 highlighter: pygments
-=======
+
 name: Alex Johnson
 description:  MSI, Digital Initiatives + Library Technology Professional Seeking Full-Time Employment
 
@@ -82,6 +82,6 @@ destination: ./_site
 
 # Custom vars
 version:          0.8
-=======
+
 timezone: Detroit
 >>>>>>> origin/master
