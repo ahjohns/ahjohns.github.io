@@ -28,7 +28,7 @@ navigation:
   url: /tags/
 - text: Archive
   url : /archive/
-=======
+
 url: https://ahjohns.github.io
 permalink: /:year/:month/:title/
 owner:
@@ -84,4 +84,4 @@ destination: ./_site
 version:          0.8
 
 timezone: Detroit
->>>>>>> origin/master
+
